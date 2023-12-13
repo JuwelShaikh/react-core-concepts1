@@ -44,3 +44,11 @@
   border: 2px double black;
   border-radius: 80px;
 }
+.count button{
+  margin: 2px;
+  padding: 5px;
+  color: white;
+  background-color: cadetblue;
+  border-radius: 2px;
+  
+}
