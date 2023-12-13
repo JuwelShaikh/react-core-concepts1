@@ -12,11 +12,12 @@ function App() {
 
 function Counter (){
   const [count, setCount] = useState(33);
+  const increaseCount =()=> setCount(count+1);
 
-  const increaseCount =()=>{
-    const newCount = count+ 1;
-    setCount(newCount);
-  }
+  // const increaseCount =()=>{
+  //   const newCount = count+ 1;
+  //   setCount(newCount);
+  // }
   return(
     <div className='count'>
       <h3>Count: {count} </h3>
