@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.count{
+  background-color: springgreen;
+  padding: 10px;
+  margin: 20px;
+  border: 2px double black;
+  border-radius: 80px;
+}
